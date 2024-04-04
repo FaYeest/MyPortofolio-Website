@@ -7,7 +7,5 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   integrations: [tailwind()],
   output: "server",
-  adapter: netlify(),
-  site: 'https://astronaut.github.io',
-  base: 'my-repo',
+  adapter: netlify()
 });
